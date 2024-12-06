@@ -10,7 +10,7 @@ const PlaceOrder = () => {
 
 
     const [method, setMethod] = useState('cod');
-    const url = "http://localhost:4000";
+    const url = "https://threads-backend-9ij1.onrender.com";
     const { navigate, token, cartItems, setCartItems, getCartAmount, delivery_fee, products } = useContext(Context);
     const [formData, setFormData] = useState({
         firstName: '',
