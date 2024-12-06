@@ -5,6 +5,7 @@ import Stripe from 'stripe'
 
 const currency = 'inr'
 const deliveryCharge = 50
+const frontnd_URL = "https://threads-frontend-nont.onrender.com/"
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
