@@ -10,7 +10,7 @@ const Login = ({}) => {
      const [currentState, setCurrentState] = useState('Login');
     const{ token, setToken, navigate} = useContext(Context);
 
-    const url = "http://localhost:4000";
+    const url = "https://threads-backend-9ij1.onrender.com";
     const [name,setName] = useState('')
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
