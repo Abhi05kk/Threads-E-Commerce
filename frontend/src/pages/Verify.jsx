@@ -8,7 +8,7 @@ const Verify = () => {
 
 const { navigate, token, setCartItems } =useContext(Context)
 const [searchParams,setSearchParams] = useSearchParams()
-const url = "http://localhost:4000";
+const url = "https://threads-backend-9ij1.onrender.com";
 const success = searchParams.get('success')
 const orderId = searchParams.get('orderId')
 
