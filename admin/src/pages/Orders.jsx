@@ -8,7 +8,7 @@ import { assets } from '../assets/admin_assets/assets';
 
 const Orders = ({ token }) => {
 
-  const url = "http://localhost:4000";
+  const url = "https://threads-backend-9ij1.onrender.com";
 
   const [orders, setOrders] = useState([])
 
