@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 
 const Add = ({token}) => {
 
-  const url = "http://localhost:4000";
+  const url = "https://threads-backend-9ij1.onrender.com";
   const [image1, setImage1] = useState(false)
   const [image2, setImage2] = useState(false)
   const [image3, setImage3] = useState(false)
