@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const Orders = () => {
 
-    const url = "http://localhost:4000";
+    const url = "https://threads-backend-9ij1.onrender.com";
     const { token, currency } = useContext(Context);
 
     const [orderData, setorderData] = useState([])
