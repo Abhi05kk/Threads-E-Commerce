@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 
 const Login = ({setToken}) => {
 
-  const url = "http://localhost:4000";
+  const url = "https://threads-backend-9ij1.onrender.com";
     const [email,setEmail] = useState('')
     const [password,setPassword] = useState('')
 
