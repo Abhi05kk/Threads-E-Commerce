@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 const Users = ({ }) => {
 
-  const url = "https://threads-backend-9ij1.onrender.com
+   const url = "https://threads-backend-9ij1.onrender.com";
   const [Users, setUsers] = useState([])
 
   const fetchUsers = async () => {
