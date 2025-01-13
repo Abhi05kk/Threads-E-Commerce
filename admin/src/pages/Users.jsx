@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 
-const Users = ({ token }) => {
+const Users = ({ }) => {
 
   const url = "http://localhost:4000"
   const [Users, setUsers] = useState([])
